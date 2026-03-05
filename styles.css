@@ -1,0 +1,152 @@
+body{
+font-family: Georgia, "Times New Roman", serif;
+background:#cdb79e;
+color:#2b1f17;
+margin:0;
+line-height:1.6;
+}
+
+/* contenitore */
+
+.container{
+max-width:900px;
+margin:auto;
+padding:40px 20px;
+}
+
+/* intestazione */
+
+header{
+padding-top:60px;
+}
+
+/* layout iniziale */
+
+.hero{
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:40px;
+}
+
+.hero-text{
+flex:1;
+}
+
+.cover{
+flex:1;
+text-align:right;
+}
+
+.cover img{
+width:200px;
+border-radius:6px;
+box-shadow:0 6px 12px rgba(0,0,0,0.3);
+}
+
+/* titoli */
+
+h1{
+font-size:48px;
+margin:0;
+}
+
+h2{
+margin-top:40px;
+}
+
+/* sottotitolo */
+
+.subtitle{
+font-size:22px;
+margin-top:10px;
+}
+
+/* autore */
+
+.author{
+margin-top:10px;
+font-size:18px;
+color:#5a4737;
+}
+
+/* citazione */
+
+.quote{
+margin-top:20px;
+font-style:italic;
+color:#3f3026;
+}
+
+/* bottoni */
+
+.buttons{
+margin-top:25px;
+}
+
+.btn{
+padding:12px 20px;
+border-radius:6px;
+text-decoration:none;
+font-weight:bold;
+margin:5px;
+display:inline-block;
+}
+
+/* bottone acquisto */
+
+.buy{
+background:#d79b5a;
+color:#2b1b12;
+}
+
+/* bottone contatto */
+
+.contact{
+background:#8b6a52;
+color:white;
+}
+
+/* griglia */
+
+.grid{
+display:grid;
+grid-template-columns:1fr 1fr 1fr;
+gap:20px;
+}
+
+/* carte */
+
+.card{
+background:#d8c4ac;
+padding:20px;
+border-radius:8px;
+}
+
+/* sezione autore */
+
+.author-section{
+display:flex;
+gap:40px;
+align-items:center;
+}
+
+.author-photo img{
+width:120px;
+border-radius:8px;
+}
+
+/* footer */
+
+footer{
+background:#bda589;
+text-align:center;
+padding:30px;
+margin-top:40px;
+}
+
+/* link */
+
+a{
+color:#6b3e1e;
+}
