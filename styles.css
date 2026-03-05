@@ -149,4 +149,11 @@ margin-top:40px;
 
 a{
 color:#6b3e1e;
+
+}
+.cover img{
+width:50%;
+max-width:350px;
+border-radius:8px;
+box-shadow:0 12px 25px rgba(0,0,0,0.35);
 }
